@@ -113,10 +113,6 @@ print(tuple(list(tuple1)))
 
 
 
-
-
-
-
 #######################tuples challenge#####################
 # Challenge: Count the number of occurrences of the character 'v' in the text below.
 # The text is converted to a tuple of characters and the target characters are 'v' and 'V'.
@@ -137,23 +133,18 @@ and you may call me V."""
 
 
 # Convert the text to a tuple of characters
-
-
-
-
 # Tuple to store the target characters
-
-
-
-
-
+tuple5 = (tuple(list(text)))
 
 # Count occurrences of 'v' or 'V' by filtering the text_tuple
+vc = tuple5.count('v')
+Vc = tuple5.count('V')
 
-
-
+Vtc = (vc + Vc)
 
 # Output the result
+print(Vtc)
+
 
 
 
